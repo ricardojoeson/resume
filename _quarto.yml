@@ -12,6 +12,8 @@ website:
         text: Home
       - href: resume.pdf
         text: Rsume
+      - href: https://github.com/ricardojoeson
+        text: Github
 
 format:
   html:
