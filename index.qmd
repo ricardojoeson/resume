@@ -8,7 +8,7 @@ about:
   links: 
     - text: Email
       icon: envelope
-      href: mailto: joellyblueman@gmail.com
+      href: mailto:joellyblueman@gmail.com
     - text: Github
       icon: github
       href: https://github.com/ricardojoeson
