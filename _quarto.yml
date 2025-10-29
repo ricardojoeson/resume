@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir:docs
+  output-dir: docs
   resources:
     - resume.pdf
 
@@ -10,8 +10,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: Fall 2025
+      - href: resume.pdf
+        text: Rsume
 
 format:
   html:
