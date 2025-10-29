@@ -10,13 +10,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: Fall 2025
 
 format:
   html:
     theme: yeti
-      - cosmo
-      - brand
+    mainfont: arial
+    fontcolor: "#333333"
+    linkcolor: "#66ccff"
     css: styles.css
     toc: true
 
