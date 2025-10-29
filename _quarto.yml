@@ -1,20 +1,26 @@
 project:
   type: website
-  output-dir:docs
+  output-dir: docs
+  resources:
+    - resume.pdf
 
 website:
-  title: "resume"
+  title: "Zhouxiang Sun"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: resume.pdf
+        text: Rsume
+      - href: https://github.com/ricardojoeson
+        text: Github
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: yeti
+    mainfont: arial
+    fontcolor: "#333333"
+    linkcolor: "#66ccff"
     css: styles.css
     toc: true
 
