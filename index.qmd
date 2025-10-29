@@ -1,11 +1,22 @@
 ---
-title: "resume"
+title: "Zhouxiang Sun"
+image: Selfie.jpg
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links: 
+    - text: Email
+      icon: envelope
+      href: mailto: joellyblueman@gmail.com
+    - text: Github
+      icon: github
+      href: https://github.com/ricardojoeson
+    - text: Resume
+      icon: file-text
+      href: resume.pdf
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+My name is Zhouxiang (Joshua) Sun. I'm a student from
+UIC, major in Civic Analytics.
+I will graduate in December 2025.
