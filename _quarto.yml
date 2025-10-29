@@ -1,9 +1,11 @@
 project:
   type: website
   output-dir:docs
+  resources:
+    - resume.pdf
 
 website:
-  title: "resume"
+  title: "Zhouxiang Sun"
   navbar:
     left:
       - href: index.qmd
@@ -12,7 +14,7 @@ website:
 
 format:
   html:
-    theme:
+    theme: yeti
       - cosmo
       - brand
     css: styles.css
